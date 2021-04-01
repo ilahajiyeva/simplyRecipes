@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1199px){}
+
+@media (max-width: 967px){}
+
+@media screen and (max-width: 768px){}
+
+@media (max-width: 510px) {
+    .navbar {
+        margin-top: 0;
+    }
+    .navbar-brand, .navbar-toggler {
+        margin-bottom: 5px;
+    }
+    .navbar-toggler {
+        background: rgba(30,59,219,0.65);
+    }
+    .collapse  {
+        text-align: center;
+    }
+    .collapse .navbar-nav .nav-item {
+        border-top: 1px solid rgba(91,91,91,0.65);
+    }
+    .collapse .navbar-nav .nav-item:last-child {
+        border-bottom: 1px solid rgba(91,91,91,0.65);
+        margin-bottom: 5px;
+    }
+    .jumbotron h1 {
+        font-size: 40px;
+    }
+    .jumbotron p {
+        font-size: 20px;
+    }
+    .recipes  {
+        text-align: center;
+    }
+    .recipes-content {
+        margin-bottom: 5px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+    .instruction .ingred {
+        margin-top: 25px
+    }
+}

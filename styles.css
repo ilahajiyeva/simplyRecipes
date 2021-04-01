@@ -1,0 +1,173 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700;800;900&display=swap');
+
+
+/*NAVIGATION SECTION*/
+
+.navbar .navbar-nav {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.navbar .nav-item .nav-link {
+    color: #000;
+}
+.navbar form .btn {
+    width: 120px;
+    font-size: 20px;
+    padding: 5px;
+}
+/*BRAND/LOGO*/
+.navbar {
+    margin-top: 20px;
+}
+.navbar-brand {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 30px;
+    text-shadow: 0px 3px 5px rgba(91,91,91,0.65);
+}
+.navbar-brand span {
+    color: rgba(30,59,219,0.65);
+}
+
+/*hEaDER SECTION*/
+.jumbotron {
+    background-image:linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("https://images.pexels.com/photos/4191619/pexels-photo-4191619.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    letter-spacing: 3px;
+    font-family: 'Inconsolata', monospace;
+}
+.jumbotron h1 {
+    font-size: 70px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.jumbotron p {
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+/*RECIPES SECTION*/
+.recipes h2,
+.strawberry h2,
+.instruction h2,
+.food h2 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.recipes span {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.recipes .card .card-title {
+    font-family: 'Inconsolata', monospace;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.recipes .card {
+    border: none;
+}
+.recipes .card img {
+    height: 200px;
+}
+.recipes .card .card-text {
+    text-transform: capitalize;
+    font-family: 'Inconsolata', monospace;
+}
+.recipes .card a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*FOOTER SECTION*/
+.footer {
+    font-size: 18px;
+    font-family: 'Inconsolata', monospace;
+}
+
+/*STRAWBERRY*/
+.strawberry p {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    font-size: 20px;
+}
+.strawberry .card {
+    border: none;
+    text-transform: capitalize;
+    font-family: 'Inconsolata', monospace;
+}
+.strawberry .card .lni {
+    font-size: 28px;
+}
+.strawberry .card a {
+    text-decoration: none;
+    color: #000;
+}
+.strawberry .card .card-text {
+    margin-top: -12px;
+}
+.strawberry .btn {
+    padding:1px 2px;
+}
+.instruction p {
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.instruction span {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+/*ABOUT SECTION*/
+.about h1 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.about p{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    font-size: 20px;
+}
+.about .btn {
+    width: 100px;
+}
+.about h4 {
+    font-family: 'Inconsolata', monospace;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 300;
+}
+.about .card {
+    border: none;
+    text-align: center;
+}
+.about .card a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*FOOD SECTION*/
+.food .card {
+    border: none;
+    text-transform: capitalize;
+}
+.food .card img {
+    height: 200px;
+}
+.food .card a {
+    color: #000;
+    text-decoration: none;
+}
